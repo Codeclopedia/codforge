@@ -78,7 +78,7 @@ https://02fdf286-2576-494c-b1f5-843e6611ca1b.mock.pstmn.io/products
 
 ## 📷 Screenshots
 
-(screenshot/screenshot-1.png)
-(screenshot/screenshot-2.png)
+![Category Screen](screenshot/screenshot-1.png)
+![Category loaded Screen](screenshot/screenshot-2.png)
 
 ---
