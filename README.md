@@ -1,16 +1,84 @@
-# codforge_assignment
 
-A new Flutter project.
+# 📦 Flutter Category App (CodForge Assignment)
 
-## Getting Started
+A modern, responsive Flutter app that fetches and displays categories from a paginated API using **Riverpod**, **GridView**, and clean UI practices.
 
-This project is a starting point for a Flutter application.
+Built with 💙 using:
+- ✅ Riverpod state management
+- ✅ CachedNetworkImage for fast image rendering
+- ✅ Infinite scroll with pagination
+- ✅ Grid layout inside a scrollable list
+- ✅ Clean GitHub workflow
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🔁 Infinite scroll with loading indicator
+- 🟩 End-of-list marker (cleanly handled)
+- 🔗 API integration (nullable-safe with error & empty state handling)
+- 🧹 Modern file structure
+
+---
+
+## 🛠 Folder Structure
+```
+lib/
+├── core/
+│   └── service/        # API handling (NetworkService)
+├── features/
+│   └── category/
+│       ├── model/      # Category model
+│       ├── provider/   # StateNotifier + Riverpod logic
+│       └── view/       # UI (category_screen.dart)
+├── widgets/            # Shared components
+main.dart
+```
+
+---
+
+## 🧑‍💻 Setup Instructions
+
+1. **Clone the repo**
+```bash
+git clone https://github.com/Codeclopedia/codforge
+cd codforge
+```
+
+2. **Install dependencies**
+```bash
+flutter pub get
+```
+
+3. **Run the app**
+```bash
+flutter run
+```
+
+---
+
+## 🧪 Test API (Optional)
+
+You can use this test API for pagination:
+```http
+https://02fdf286-2576-494c-b1f5-843e6611ca1b.mock.pstmn.io/products
+```
+
+---
+
+
+
+## 🧊 Want to Contribute?
+
+1. Fork this repo
+2. Create a feature branch
+3. Submit a pull request
+
+---
+
+## 📷 Screenshots
+
+(screenshot/screenshot-1.png)
+(screenshot/screenshot-2.png)
+
+---
